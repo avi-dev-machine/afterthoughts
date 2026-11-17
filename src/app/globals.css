@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --bg-ivory: #fbf9f5;
+  --bg-warm: #f5f1e8;
+  --ink-charcoal: #181715;
+  --ink-muted: #605c56;
+  --accent-terracotta: #9e3b24;
+  --accent-forest: #2c4a3e;
+  --border-subtle: #ded8ce;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-ivory);
+  color: var(--ink-charcoal);
+}
+
+body {
+  background-color: var(--bg-ivory);
+  color: var(--ink-charcoal);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: "Cascadia Code", "JetBrains Mono", Consolas, ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+}
+
+::selection {
+  background-color: #9e3b24;
+  color: #fbf9f5;
+}
