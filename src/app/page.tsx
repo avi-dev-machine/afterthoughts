@@ -184,30 +184,29 @@ export default function HomePage() {
               ABOUT THE PUBLICATION
             </div>
             <h2 className="font-serif text-3xl text-[#181715]">
-              Why Afterthoughts Exists
+              A little curiosity about what comes next.
             </h2>
           </div>
 
           <div className="md:col-span-8 space-y-4 text-base sm:text-lg text-[#3D3A35] leading-relaxed">
             <p>
-              Most writing about artificial intelligence falls into one of two
-              buckets: dense academic papers written for specialists, or breathless
-              social media threads promising that everything you know is obsolete by
-              Tuesday.
+              <strong>AFTERTHOUGHTS.</strong> is a personal space for ideas,
+              questions and reflections on Artificial Intelligence, technology and
+              the future. As a Computer Science and AI &amp; ML student, I&apos;m
+              constantly learning about technologies that are changing the way we
+              live, work and see the world.
             </p>
             <p>
-              I started <strong>AFTERTHOUGHTS.</strong> as an engineering student
-              who wanted a third space—a quiet notebook to take one question about
-              AI, computing, and human intelligence, look at the research and the
-              mathematics honestly, and explore where the technology actually leaves
-              us.
+              I&apos;m not here to claim expertise or predict exactly what the
+              future holds. I&apos;m here to learn, explore, question and document
+              that process — one article at a time.
             </p>
             <div className="pt-2">
               <Link
                 href="/about"
                 className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-[0.18em] text-[#9E3B24] hover:text-[#181715] underline underline-offset-8"
               >
-                More About This Series
+                Read Full About Page
                 <ArrowRight className="w-3.5 h-3.5" />
               </Link>
             </div>

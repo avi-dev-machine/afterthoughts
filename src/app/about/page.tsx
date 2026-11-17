@@ -4,9 +4,9 @@ import Link from "next/link";
 import { ArrowRight, BookOpen } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About AFTERTHOUGHTS.",
   description:
-    "Why AFTERTHOUGHTS exists — a personal technology and ideas notebook by an engineering student exploring AI and what comes next.",
+    "A little curiosity about what comes next. AFTERTHOUGHTS. is a personal space for ideas, questions and reflections on Artificial Intelligence, technology and the future.",
 };
 
 export default function AboutPage() {
@@ -16,73 +16,67 @@ export default function AboutPage() {
         <div className="font-mono text-xs uppercase tracking-[0.2em] text-[#9E3B24] mb-3">
           ABOUT THE PUBLICATION
         </div>
-        <h1 className="font-serif text-4xl sm:text-5xl text-[#181715] font-normal leading-tight">
-          Not a lecture about artificial intelligence. Just a thought worth exploring.
+        <h1 className="font-serif text-4xl sm:text-5xl text-[#181715] font-normal leading-tight mb-4">
+          About AFTERTHOUGHTS<span className="text-[#9E3B24]">.</span>
         </h1>
+        <p className="font-serif italic text-xl sm:text-2xl text-[#3D3A35]">
+          A little curiosity about what comes next.
+        </p>
       </header>
 
       <div className="space-y-6 text-[17px] sm:text-[18.5px] leading-[1.82] text-[#22201D]">
         <p className="first-letter:float-left first-letter:font-serif first-letter:text-5xl sm:first-letter:text-6xl first-letter:leading-[0.85] first-letter:pr-3.5 first-letter:pt-1 first-letter:text-[#9E3B24]">
-          I started <strong>AFTERTHOUGHTS.</strong> because I wanted a place to slow
-          down and think carefully about the tools we are building and using every
-          day.
+          <strong>AFTERTHOUGHTS.</strong> is a personal space for ideas, questions
+          and reflections on Artificial Intelligence, technology and the future.
         </p>
 
         <p>
-          As an engineering student learning and building alongside modern AI
-          systems, I kept noticing a strange gap in how we talk about technology.
-          On one side are dense academic papers that rarely leave university labs;
-          on the other side are breathless LinkedIn threads and product launches
-          that treat every new model like the end of human thought.
+          It began with a simple habit — being curious about things I don&apos;t
+          fully understand yet, wondering about possibilities that don&apos;t exist
+          today, and occasionally getting lost in a thought that starts with{" "}
+          <em className="font-serif">what if?</em>
         </p>
 
         <p>
-          Between those two extremes sit the questions that actually matter to how
-          we study, write code, do research, and make decisions:
+          As a Computer Science and AI &amp; ML student, I&apos;m constantly learning
+          about technologies that are changing the way we live, work and see the
+          world. But beyond the code, algorithms and technical developments,
+          there&apos;s a much bigger picture that I find equally interesting.
         </p>
 
-        <blockquote className="my-8 py-5 px-6 border-l-4 border-[#9E3B24] bg-[#F5F1E8] font-serif italic text-xl text-[#181715]">
-          &ldquo;Some ideas are worth exploring, some questions don&apos;t have
-          straightforward answers, and some possibilities are too interesting to
-          leave unexplored. Afterthoughts is my attempt to document those ideas —
-          one article, one question and one thought at a time.&rdquo;
+        <blockquote className="my-8 py-6 px-6 sm:px-8 border-l-4 border-[#9E3B24] bg-[#F5F1E8] font-serif italic text-xl sm:text-2xl text-[#181715] leading-relaxed">
+          What could we build? What might change? What should we be thinking about
+          before the future arrives?
         </blockquote>
 
-        <h2 className="font-serif text-2xl sm:text-3xl text-[#181715] pt-6">
-          What to Expect Here
-        </h2>
+        <p>This space is my attempt to explore those questions.</p>
 
         <p>
-          I am not writing this series as an established industry veteran or claiming
-          to have final answers. I am writing as a student of engineering who enjoys
-          looking under the hood—combining honest first-person observations with
-          accessible mathematics, visual diagrams, and primary research from people
-          who studied cognition and computing long before the current hype cycle.
+          You&apos;ll find thoughts on AI, emerging technologies, practical
+          innovations, human–technology interactions and ideas that might seem a
+          little far-fetched today. Some pieces will be technical, some
+          speculative, and others simply reflections on things worth thinking about.
         </p>
 
-        <div className="my-8 border border-[#DED8CE] bg-[#F5F1E8] p-6 space-y-3 text-sm sm:text-base">
-          <div className="font-mono text-xs uppercase tracking-[0.16em] text-[#2C4A3E] font-semibold">
-            EDITORIAL PRINCIPLES OF AFTERTHOUGHTS
+        <p>
+          I&apos;m not here to claim expertise or predict exactly what the future
+          holds. I&apos;m here to learn, explore, question and document that process
+          — one article at a time.
+        </p>
+
+        <p>
+          Perhaps some ideas will turn out to be right. Others might change
+          completely as I learn more. And that&apos;s part of the journey.
+        </p>
+
+        <div className="my-10 pt-8 border-t border-[#DED8CE]">
+          <div className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-[#181715] mb-2">
+            AFTERTHOUGHTS<span className="text-[#9E3B24]">.</span>
           </div>
-          <ul className="space-y-2 text-[#2D2B28]">
-            <li>
-              • <strong>Curiosity over authority:</strong> Exploring questions
-              honestly rather than preaching predetermined conclusions.
-            </li>
-            <li>
-              • <strong>Technical clarity:</strong> Using simple equations, concrete
-              code examples, and visual models where they genuinely illuminate an
-              idea.
-            </li>
-            <li>
-              • <strong>Verified sources:</strong> Citing real researchers and
-              separating established findings from personal hypothesis.
-            </li>
-            <li>
-              • <strong>No filler:</strong> Every chapter is published only when it
-              has been properly researched, written, and illustrated.
-            </li>
-          </ul>
+          <p className="font-serif italic text-lg sm:text-xl text-[#4A4640]">
+            Not a collection of answers, but a place for the questions that stay
+            with us.
+          </p>
         </div>
 
         <div className="pt-6 border-t border-[#DED8CE] flex flex-wrap items-center gap-4">
