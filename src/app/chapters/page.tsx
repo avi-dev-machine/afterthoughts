@@ -36,9 +36,6 @@ export default function ChaptersArchivePage() {
           <span className="px-3 py-1 border border-[#D4CDC0] bg-[#F5F1E8] text-[#5A554E]">
             {upcomingChapters.length} Upcoming
           </span>
-          <span className="px-3 py-1 border border-[#D4CDC0] bg-[#FBF9F5] text-[#5A554E]">
-            Dynamic Route: /afterthoughts/chapter&#123;N&#125;
-          </span>
         </div>
       </header>
 
@@ -93,10 +90,6 @@ export default function ChaptersArchivePage() {
                   Read Chapter {ch.chapterCode}
                   <ArrowRight className="w-3.5 h-3.5" />
                 </Link>
-
-                <span className="font-mono text-xs text-[#605C56]">
-                  URL: <code>{ch.routePath}</code>
-                </span>
               </div>
             </div>
           ))}
@@ -130,7 +123,7 @@ export default function ChaptersArchivePage() {
 
                   <div>
                     <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#7A7369] mb-0.5">
-                      {ch.category} · <span>{ch.routePath}</span>
+                      {ch.category}
                     </div>
                     {isPublished ? (
                       <Link

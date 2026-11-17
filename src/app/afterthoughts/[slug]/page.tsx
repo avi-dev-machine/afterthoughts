@@ -83,7 +83,7 @@ export default async function AfterthoughtsChapterPage({
           <ArrowLeft className="w-3.5 h-3.5" />
           Back to Archive
         </Link>
-        <span>ROUTE · {planned.routePath}</span>
+        <span>AFTERTHOUGHTS · SERIES I</span>
       </div>
 
       <div className="border border-[#181715] bg-[#F5F1E8] p-8 sm:p-12">

@@ -85,13 +85,6 @@ export default function HomePage() {
               Read Chapter 01
               <ArrowRight className="w-4 h-4" />
             </Link>
-
-            <span className="font-mono text-xs text-[#605C56]">
-              Route:{" "}
-              <code className="text-[#181715] bg-[#EAE4D8] px-2 py-0.5">
-                {featuredChapter.routePath}
-              </code>
-            </span>
           </div>
         </div>
       </section>
@@ -150,7 +143,7 @@ export default function HomePage() {
                     )}
 
                     <div className="font-mono text-[10px] uppercase tracking-[0.16em] text-[#7A7369] mt-1">
-                      {ch.category} · {ch.routePath}
+                      {ch.category}
                     </div>
                   </div>
                 </div>
